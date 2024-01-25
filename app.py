@@ -6,6 +6,8 @@ import streamlit as st
 title = "Ollama Chat"
 ver = "0.1.0"
 
+assistant_greeting = "How may I help you?"
+
 model_refs = {model["name"] for model in ollama.list()["models"]}
 
 st.set_page_config(
@@ -16,7 +18,7 @@ st.set_page_config(
 )
 st.title(title)
 
-assistant_greeting = "How may I help you?"
+st.markdown(r"<style>.stDeployButton{display:none}</style>", unsafe_allow_html=True)
 
 model_ref = st.sidebar.selectbox("model", model_refs,
                                  help="See https://ollama.ai/library for more models. "
