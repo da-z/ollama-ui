@@ -111,7 +111,7 @@ if actions[1].button("🔂 Continue", use_container_width=True,
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": last_user_prompt},
             {"role": "assistant", "content": last_assistant_response},
-        ]  # todo strip assistant end word
+        ]
 
         # remove last assistant response from state, as it will be replaced with a continued one
         remove_last_occurrence(st.session_state.messages,
