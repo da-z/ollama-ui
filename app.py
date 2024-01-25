@@ -4,7 +4,7 @@ import ollama
 import streamlit as st
 
 title = "Ollama Chat"
-ver = "0.1.0"
+ver = "0.1.1"
 
 assistant_greeting = "How may I help you?"
 
