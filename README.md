@@ -2,6 +2,8 @@
 
 A hackish web frontend for ollama.
 
+![](screenshot.png)
+
 ## Install
 
 Install [Ollama](https://ollama.ai/) and run the server.
