@@ -1,6 +1,6 @@
 # Ollama Chat
 
-A hackish web frontend for ollama.
+A simple UI / Web / Frontend for Ollama using Streamlit.
 
 ![](screenshot.png)
 
